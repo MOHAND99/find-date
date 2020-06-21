@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TYPE unsigned int /// i like working using short
-#define L_FEB 29
-#define NOT_L_FEB 28
+#define TYPE unsigned int 
+#define L_FEB 29     /// February days in a leap year
+#define NOT_L_FEB 28 
 
 char isLeap(TYPE y){return ((!(y%4)&&(y%100))||(!(y%100)&&!(y%400)));}
 enum months {jan=1,feb=2,mar=3,apr=4,may=5,june=6,july=7,aug=8,sep=9,oct=10,nov=11,dec=12};
